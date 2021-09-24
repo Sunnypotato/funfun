@@ -157,7 +157,6 @@ h1 a {
     flex:1;
     float: left;
 }
-
 .nav-main img {
     width: 100%;
     height: 15rem;
@@ -165,8 +164,9 @@ h1 a {
     max-width: 50rem;
     padding: 0 2rem;
     background-color: #fffaeb;
-    border: 0rem solid #cbe8bc;
+    border: 0.3rem solid #cbe8bc;
     border-radius: 6rem;
+    transition:0.3s;
    
     
 }
@@ -178,7 +178,7 @@ h1 a {
     padding: 0 1.8rem;
 }
 .nav-main img:hover{
-    border: 0.5rem solid #cbe8bc;
+    border: 0.7rem solid #cbe8bc;
 
 
 }
